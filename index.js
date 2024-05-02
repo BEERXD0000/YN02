@@ -57,18 +57,18 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setApplicationId('1112701450150232085')
       .setType('STREAMING')
       .setURL('https://www.youtube.com/watch?v=xRzbLQ_WKPs')
-      .setState(`Discord`)
-      .setName(`🎮`)
+      .setState(`🎮`)
+      .setName(`Youtube`)
       .setDetails(`꒰𝗣𝗹𝗮𝘆 𝗴𝗮𝗺𝗲 𝗱𝗺 𝗺𝗲꒱ 𝟮𝟱/𝟳`)
       .setAssetsSmallImage(`${popp}`) 
 .setAssetsLargeImage(`${ssss}`)
-.setAsset.setAssetsLargeText(`꒰ ${getTime()} ꒱ ${moment().format('• ꒰ DD/MM/YYYY ꒱')}`)
+.setAssetsLargeText(`꒰ ${getTime()} ꒱ ${moment().format('• ꒰ DD/MM/YYYY ꒱')}`)
 .setAssetsSmallText(`ping : ${Math.round(client.ws.ping)}`)
 .addButton(`${ioii}`,`${oooi}`)  
 
       .addButton(`${tyyy}`,`${sddd}`)
-.setStartTimestamp("1672545600" || Date.now())
-.setEndTimestamp("1704077999" || Date.now())
+//.setStartTimestamp("1672545600" || Date.now())
+//.setEndTimestamp("1704077999" || Date.now())
     client.user.setActivity(r);
   }, 8*1000); // อัพเดท ทุกๆ 7 วินาที
   console.log(`${client.user.username} Is Ready!`)
@@ -103,4 +103,4 @@ let options = {
   }
   function getTime() {
     return (new Date()).toLocaleString([], options).split(" ")[1].replaceAll(",", "");
-          }	
+          }
